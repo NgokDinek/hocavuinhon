@@ -1,0 +1,172 @@
+#shark{
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: shark;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes shark{
+    0% {left: 100px; top: 400px;}
+    20%{left: 300px;top:400px;}
+    40%{left: 500px;top: 300px;}
+    50%{left: 600px;top:50px;}
+    60%{left: 600px;top: 100px;transform: scaleX(1);}
+    70%{left: 600px;top: 100px;transform: scaleX(-1);}
+    80%{left: 500px;top: 200px;}
+    90%{left:100px;top: 400px;transform: scaleX(-1);}
+    100%{left:100px;top: 400px;transform: scaleX(1);}
+}
+#faint1{
+    left:300 px;
+    top: 550px;
+    position: absolute;
+    animation-name: f1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+#faint2{
+    left:700 px;
+    top: 550px;
+    position: absolute;
+    animation-name: f2;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes f1{
+    0%{left: 300px;top: 550px; opacity: 0%;}
+    10%{left: 300px;top: 500px; opacity: 100%;}
+    90%{left: 300px;top: 120px; opacity: 100%;}
+    100%{left: 300px;top:80px; opacity:0%;}
+}
+@keyframes f2{
+    0%{left: 700px;top: 550px; opacity: 0%;}
+    10%{left: 700px;top: 500px; opacity: 100%;}
+    90%{left: 700px;top: 120px; opacity: 100%;}
+    100%{left: 700px;top:80px; opacity:0%;}
+}
+#content{
+    border-style: inset;
+    margin-top: 70px;
+    margin-left: 20px;
+    width:1500px ;
+    height: 700px;
+    border-color: black;
+    border-radius: 5px;
+    background-image: url('hồ cá/water.jpg');
+    background-size: 1500px 700px;
+    background-repeat: no-repeat;
+}
+#turtle{
+    left: 50px;
+    top: 100px;
+    position: absolute;
+    animation-name: rua;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes rua{
+    0%{left: 50px;top: 100px;}
+    30%{left: 750px;top: 100px;transform: scaleX(1);}
+    35%{left: 750px;top: 100px;transform: scaleX(-1);}
+    60%{left:400px;top:450px;}
+    70%{left: 400px;top:550px;}
+    95%{left: 50px;top: 100px;transform: scaleX(-1);}
+    100%{left: 50px;top: 100px;transform: scaleX(1);}
+}
+#fish{
+    left: 700px;
+    top: 500px;
+    position: absolute;
+    animation-name: ca;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes ca{
+0%{left: 700px;top: 500px;}
+30%{left: 850px;top: 100px;transform: scaleX(1);}
+40%{left: 850px;top: 100px;transform: scaleX(-1);}
+50%{left: 700px;top: 100px;}
+70%{left: 100px;top: 500px;transform: scaleX(-1);}
+80%{left: 100px;top: 500px;transform: scaleX(1);}
+100%{left: 700px;top: 500px;}
+}
+#di1{
+    left: 50px;
+    top: 500px;
+    position: absolute;
+    animation-name: d1;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes d1{
+    0%{left: 50px;top: 500px;}
+    45%{left: 850px;top: 500px;transform: scaleX(1);}
+    50%{left: 850px;top: 500px;transform: scaleX(-1);}
+    95%{left: 50px;top: 500px;transform: scaleX(-1);}
+    100%{left: 50px;top: 500px;transform: scaleX(1);}
+    
+}
+#di2{
+    left: 700px;
+    top: 400px;
+    position: absolute;
+    animation-name: d2;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes d2{
+    0%{left: 700px;top: 400px;}
+    10%{left:850px;top:400px; transform: scaleX(1);}
+    15%{left:850px;top:400px; transform: scaleX(-1);}
+    40%{left:500px;top:100px;}
+    70%{left:50px;top:450px;transform: scaleX(-1);}
+    75%{left:50px;top:450px;transform: scaleX(1);}
+    90%{left: 400px;top:600px ;}
+    100%{left: 700px;top: 400px;}
+
+}
+#di3{
+    left: 300px;
+    top: 300px;
+    position: absolute;
+    animation-name: d3;
+    animation-duration: 19s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transform: scaleX(-1);
+}
+@keyframes d3{
+    0%{left: 300px;top: 300px;}
+    20%{left: 100px;top: 550px;}
+    50%{left: 50px;top: 100px;transform: scaleX(-1);}
+    55%{left: 50px;top: 100px;transform: scaleX(1);}
+    80%{left: 200px;top: 300px;}
+    90%{left: 300px;top: 300px;transform: scaleX(1);}
+    100%{left: 300px;top: 300px;transform: scaleX(-1);}
+}
+audio{
+    width: 300px;
+    height: 20px;
+    float: right;
+}
+button{
+    float: right;
+    
+}
